@@ -2,6 +2,7 @@ import Image from './components/Image';
 import ContactInfo from './components/ContactInfo';
 import WorkExperience from './components/WorkExperience';
 import Counter from './components/Counter';
+import GitHubRepositories from './components/Repo';
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
       <WorkExperience />
 
       <Counter />
+
+      <GitHubRepositories username="govtvigor" />
     </div>
   );
 };
