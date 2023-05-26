@@ -1,6 +1,7 @@
 import Image from './components/Image';
 import ContactInfo from './components/ContactInfo';
 import WorkExperience from './components/WorkExperience';
+import Counter from './components/Counter';
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
 
       
       <WorkExperience />
+
+      <Counter />
     </div>
   );
 };
